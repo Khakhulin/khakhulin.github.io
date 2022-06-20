@@ -1,0 +1,419 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Taras Khakhulin</title>
+  
+  <meta name="author" content="Taras Khakhulin">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" href="data/dove-svgrepo-com.svg">
+	<!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"> -->
+</head>
+
+<body>
+  <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <!-- <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> -->
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Taras Khakhulin</name>
+              </p>
+              <p> I am a Ph.D. student at <a href="http://skoltech.ru/">Skoltech</a> advised by <a href="https://scholar.google.ru/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a> and research engineer at <a href="http://research.samsung.com/aicenter_moscow">Samsung AI Center</a>.
+                I try to synthesize things that people currently cannot.
+                During my studies, I have contributed to 3D representations, image synthesis, and human avatars. I hope that soon we will be able to scan the whole world, including ourselves to improve the immersive communications.
+              </p>
+              <p> Prior to that, I investigate the application of reinforcement learning for discrete optimization under the advising of <a href="https://scholar.google.com/citations?hl=en&user=5kMqBQEAAAAJ">Ivan Oseledets</a> and <a href="https://scholar.google.com/citations?user=YjuDsXYAAAAJ&hl=en">Roman Schutski</a>. 
+                Earlier, I was a part of the <a href="https://github.com/deepmipt/DeepPavlov">DeepPavlov</a> project, where we studied word representations for text with missplellings.
+                </p>
+              <p style="text-align:center">
+                <a href="mailto:t.khakhulin@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="data/Taras_KhakhulinCV.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.ru/citations?user=D3OF4rYAAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://twitter.com/tkhakhulin">Twitter</a> &nbsp/&nbsp
+                <a href="https://github.com/khakhulin/">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="data/images/taras_photo.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="data/images/taras_circle.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="rome_stop()" onmouseover="rome_start()">
+            <!-- <td style="padding:15px;width:25%;vertical-align:middle"> -->
+              <td style="padding:15px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='rome_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="data/videos/rome_crop.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img  style="margin-top:34px;margin-bottom:8px" src='data/images/shot_rome.jpg' width="100%">
+              </div>
+              <script type="text/javascript">
+                function rome_start() {
+                  document.getElementById('rome_image').style.opacity = "1";
+                }
+
+                function rome_stop() {
+                  document.getElementById('rome_image').style.opacity = "0";
+                }
+                rome_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://samsunglabs.github.io/rome/">
+                <papertitle>Realistic One-shot Mesh-based Head Avatars</papertitle>
+              </a>
+              <br>
+              <strong>Taras Khakhulin</strong>,
+              <a>Vanessa Sklyarova</a>, 
+              <a href="https://scholar.google.ru/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>, 
+              <a href="https://scholar.google.com/citations?user=wyF-PxIAAAAJ">Egor Zakharov</a> 
+              <br>
+              <em>arXiv</em>, 2022  
+              <br>
+							<a href="https://samsunglabs.github.io/rome/">project page</a> / 
+							<a href="https://arxiv.org/abs/2206.08343">arXiv</a> 
+              <p></p>
+              <p>Create an animatable avatar just from a <emph>single</emph> image with coarse hair mesh and neural rendering.
+                We learn head geometry and rendering together with supreme quality in a cross-person reenactment.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="stereolayers_stop()" onmouseover="stereolayers_start()">
+            <td style="padding:15px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='stereolayers_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="data/videos/164_cmp.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video>
+              </div>
+              <img style="margin-top:50px" src='data/images/stereo_img.png' width="100%" >
+              </div>
+              <script type="text/javascript">
+                function stereolayers_start() {
+                  document.getElementById('stereolayers_image').style.opacity = "1";
+                }
+
+                function stereolayers_stop() {
+                  document.getElementById('stereolayers_image').style.opacity = "0";
+                }
+                stereolayers_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://openaccess.thecvf.com/content/CVPR2022/html/Khakhulin_Stereo_Magnification_With_Multi-Layer_Images_CVPR_2022_paper.html">
+                <papertitle>Stereo Magnification with Multi-Layer Images
+                </papertitle>
+              </a>
+              <br>
+              <strong>Taras Khakhulin</strong>,
+              <a href="https://scholar.google.com/citations?user=ypspak0AAAAJ">Denis Korzhenkov</a>, 
+              <a href="https://scholar.google.com/citations?user=cztiAZgAAAAJ">Pavel Solovev</a>, 
+              <a href="https://scholar.google.com/citations?user=jExqPx0AAAAJ">Gleb Sterkin</a>, 
+              <a href="https://scholar.google.com.ph/citations?user=K39yTK0AAAAJ">Andrei-Timotei Ardelean</a>, 
+              <a href="https://scholar.google.ru/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>
+              <br>
+              <em>CVPR</em>, 2022  
+              <br>
+							<a href="https://samsunglabs.github.io/StereoLayers/">project page</a> / 
+							<a href="http://arxiv.org/abs/2201.05023">arXiv</a> / 
+							<a href="https://samsunglabs.github.io/StereoLayers/sword/">dataset</a> / 
+							<a href="data/bib/stereolayers.bib">bibtex</a>
+              <p></p>
+              <p> The scene can be represented as a set of semi-transparent mesh layers from just stereo pair without loss of the quality. 
+                This representation allows effortless estimation and fast rendering. 
+                Additionaly, we published a dataset with occluded region - <a href="https://samsunglabs.github.io/StereoLayers/sword/">SWORD</a> - for novel view synthesis.
+              </p>
+            </td>
+          </tr>
+					
+
+					<tr onmouseout="cips_stop()" onmouseover="cips_start()">
+            <td style="padding:15px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='cips_image1'>
+                  <img style="margin-top:40px" src='data/images/cips2.png' width="100%" >
+                </video>
+              </div>
+              <img style="margin-top:40px" src='data/images/cips1.png' width="100%" >
+              </div>
+              <script type="text/javascript">
+                function cips_start() {
+                  document.getElementById('cips_image1').style.opacity = "1";
+                }
+
+                function cips_stop() {
+                  document.getElementById('cips_image1').style.opacity = "0";
+                }
+                cips_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openaccess.thecvf.com/content/CVPR2021/html/Anokhin_Image_Generators_With_Conditionally-Independent_Pixel_Synthesis_CVPR_2021_paper.html" id="cips">
+                <papertitle>Image Generators with Conditionally-Independent Pixel Synthesis</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.ru/citations?user=CJ-86AYAAAAJ&hl=en">Ivan Anokhin</a>,
+               <a href="https://scholar.google.com/citations?user=HdHECuQAAAAJ&hl=en">Kiril Demochkin</a>,
+               <strong>Taras Khakhulin</strong>,
+               <a href="https://scholar.google.com/citations?user=jExqPx0AAAAJ">Gleb Sterkin</a>, <br>
+               <a href="https://scholar.google.ru/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>, 
+               <a href="https://scholar.google.com/citations?user=ypspak0AAAAJ">Denis Korzhenkov</a>
+               <br>
+              <em>CVPR</em>, 2021 <font color="green"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <a href="https://arxiv.org/abs/2011.13775">arXiv</a>
+              / <a href="https://github.com/saic-mdal/CIPS">code</a> 
+              / <a href="data/images/cips_samples.png">samples</a> 
+              / <a href="https://research.samsung.com/blog/Image-Generators-with-Conditionally-Independent-Pixel-Synthesis">blog</a>
+              / <a href="data/bib/cips.bib">bibtex</a>
+              <p>Our generator produce images without any spatial convolutions.
+                 Each pixel synthesized separetly conditioned on noise vector.
+                 We investigate properties of such generator and
+                  propose several applications (e.g. super-res, foveated rendering).
+                </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="graphrl_stop()" onmouseover="graphrl_start()">
+            <td style="padding:15px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='graph_agent'>
+                  <img style="margin-top:40px" src='data/images/graph_elim.png' width="100%" >
+                </video>
+              </div>
+              <img style="margin-top:40px" src='data/images/graph_agent.png' width="100%" >
+              </div>
+              <script type="text/javascript">
+                function graphrl_start() {
+                  document.getElementById('graph_agent').style.opacity = "1";
+                }
+
+                function graphrl_stop() {
+                  document.getElementById('graph_agent').style.opacity = "0";
+                }
+                graphrl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openreview.net/pdf?id=aZ7wAnYs9v1" id="graphRL">
+                <papertitle>Learning Elimination Ordering for Tree Decomposition Problem
+                </papertitle>
+              </a>
+              <br>
+               <strong>Taras Khakhulin</strong>
+               <a href="https://scholar.google.com/citations?user=YjuDsXYAAAAJ&hl=en">Roman Schutski</a>,
+               <a href="https://scholar.google.com/citations?hl=en&user=5kMqBQEAAAAJ">Ivan Oseledets</a>
+              <br>
+              <em> Learning Meets Combinatorial Algorithms, NeurIPS Workshop </em>, 2020
+              <br>
+              <a href="https://slideslive.com/38942695/learning-elimination-ordering-for-tree-decomposition-problem?locale=en">presentation</a> 
+              / <a href="https://openreview.net/pdf?id=aZ7wAnYs9v1">paper</a> 
+              / <a href="https://arxiv.org/pdf/1910.08371">arXiv</a> 
+              / <a href="data/bib/td_rl.bib">bibtex</a>
+              <p>We propose a learning heuristic with RL for real-world combinatorial problem on graphs.
+                 Suprisingly, we can easily estimate universal policy which can be scaled across different graphs.</p>
+            </td>
+          </tr>
+
+          
+          
+
+          <tr onmouseout="hidt_stop()" onmouseover="hidt_start()">
+            <td style="padding:15px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='hidt_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="data/videos/hidt_camp.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+                </div>
+              <img style="margin-top:35px" src='data/images/hidt_cover.jpg' width=100% >
+              </div>
+              <script type="text/javascript">
+                function hidt_start() {
+                  document.getElementById('hidt_image').style.opacity = "1";
+                }
+
+                function hidt_stop() {
+                  document.getElementById('hidt_image').style.opacity = "0";
+                }
+                hidt_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Anokhin_High-Resolution_Daytime_Translation_Without_Domain_Labels_CVPR_2020_paper.html" id="hidt">
+                <papertitle>High-Resolution Daytime Translation Without Domain Labels
+                </papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.ru/citations?user=CJ-86AYAAAAJ&hl=en">Ivan Anokhin*</a>,
+              <a href="https://scholar.google.com/citations?user=cztiAZgAAAAJ">Pavel Solovev*</a>, 
+              <a href="https://scholar.google.com/citations?user=ypspak0AAAAJ">Denis Korzhenkov*</a>, 
+              <a href="https://scholar.google.ru/citations?hl=en&user=3I0Gy1kAAAAJ"> Alexey Kharlamov*</a> <br>
+              <strong>Taras Khakhulin</strong>
+              <a>Alexey Silvestrov</a>,
+              <a href="https://scholar.google.ru/citations?user=_lk95cEAAAAJ&hl=en">Sergey Nikolenko</a>,
+              <a href="https://scholar.google.ru/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>, 
+              <a href="https://scholar.google.com/citations?user=jExqPx0AAAAJ">Gleb Sterkin</a>, 
+              <br>
+              <em>CVPR</em>, 2020 <font color="green"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <a href="https://youtu.be/DALQYKt-GJc">video</a> 
+              / <a href="https://saic-mdal.github.io/HiDT/">project</a> 
+              / <a href="https://arxiv.org/abs/2003.08791">arXiv</a>
+              / <a href="https://github.com/saic-mdal/HiDT">code</a>
+              / <a href="data/bib/hidt.bib">bibtex</a>
+              <p>Our generator produce images without any spatial convolutions. Each pixel synthesized separetly conditioned on noise vector.</p>
+            </td>
+          </tr>
+      
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="data/images/td_heuristic.png" alt="td" width="180" height="160" style="border-style: none">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://journals.aps.org/pra/abstract/10.1103/PhysRevA.102.062614" id="td">
+                <papertitle>Simple heuristics for efficient parallel tensor contraction and quantum circuit simulation
+                </papertitle>
+              </a>
+              <br>
+               <a href="https://scholar.google.com/citations?user=YjuDsXYAAAAJ&hl=en">Roman Schutski</a>,
+               <a>Dmitry Kolmakov</a>,
+               <strong>Taras Khakhulin</strong>,
+               <a href="https://scholar.google.com/citations?hl=en&user=5kMqBQEAAAAJ">Ivan Oseledets</a>
+              <br>
+              <em>Physical Review A</em>, 2020
+              <br>
+              <a href="https://arxiv.org/abs/2004.10892">arXiv</a> 
+              / <a href="data/bib/td_heur.bib">bibtex</a>
+              <p>The heuristic approach based on tree decomposition to relax the contraction of tensor networks using probabilistic graphical models and applied for random quantum circuits.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:40px;width:25%">
+              <img src="data/images/rove.png" alt="rove" width="140" height="120" style="margin-left:auto;margin-right:auto;border-style:center;text-align:center">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle;">
+              <a href="https://aclanthology.org/W18-6108" id="rove">
+                <papertitle>Robust word vectors: context-informed embeddings for noisy texts</papertitle>
+              </a>
+              <br>
+              Valentin Malykh, Varvara Logacheva, <strong>Taras Khakhulin</strong>
+              <br>
+              <em> Workshop on Noisy User-generated Text at EMNLP</em>, 2018
+              <br>
+              <a href="https://aclanthology.org/W18-6108.pdf">paper</a> 
+              / <a href="data/rove.bib">bibtex</a>
+              <p>We suggest a new language-independent architecture of robust word vectors (RoVe).
+                 It is designed to alleviate the issue of typos, which are common in almost any user-generated content, and hinder automatic text processing.
+                  Our model allows it to deal with unseen word forms in morphologically rich languages before contextualized language models.</p>
+            </td>
+          </tr>
+
+          <!-- <tr>
+            <td style="padding:40px;width:25%">
+              <img src="data/images/rove.png" alt="rove" width="140" height="120" style="margin-left:auto;margin-right:auto;border-style:center;text-align:center">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle;">
+              <a href="Noise robustness in aspect extraction task" id="rove-aspect">
+                <papertitle>	Noise robustness in aspect extraction task</papertitle>
+              </a>
+              <br>
+              Valentin Malykh, <strong>Taras Khakhulin</strong>
+              <br>
+              <em>IC-AIAI</em>, 2018
+              <br>
+              <a href="https://ieeexplore.ieee.org/abstract/document/8674450">paper</a> 
+              / <a href="data/rove_aspect.bib">bibtex</a>
+              <p>We investigate the ROVE for aspect extraction and propose model to handle whole context for aspect extraction, that naturally contains user specific missplellings.</p>
+            </td>
+          </tr> -->
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="data/images/deeppavlov-img.jpg" alt="deeppavlov" width="180" height="95" style="border-style: none">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://aclanthology.org/P18-4021" id="deeppavlov">
+                <papertitle>Deeppavlov: Open-source library for dialogue systems</papertitle>
+              </a>
+              <br>
+              Mikhail Burtsev, Alexander Seliverstov, Rafael Airapetyan,
+               Mikhail Arkhipov, Dilyara Baymurzina, Nickolay Bushkov,
+                Olga Gureenkova, <strong>Taras Khakhulin</strong> , Yuri Kuratov, Denis Kuznetsov,
+                 Alexey Litinsky, Varvara Logacheva, Alexey Lymar, Valentin Malykh,
+                  Maxim Petrov, Vadim Polulyakh, Leonid Pugachev, Alexey Sorokin, 
+                  Maria Vikhreva, Marat Zaynutdinov
+              <br>
+              <em>ACL, System Demonstrations </em>, 2018
+              <br>
+              <a href="https://aclanthology.org/P18-4021.pdf">paper</a> 
+              / <a href="https://github.com/deepmipt/DeepPavlov">code</a>
+              / <a href="https://blog.tensorflow.org/2019/09/deeppavlov-open-source-library-for-end.html">TF blog</a>
+              / <a href="data/bib/burtsev-etal-2018-deeppavlov.bib">bibtex</a>
+              <p>Open-source library for end2end conversational NLP.</p>
+            </td>
+          </tr>
+          
+          <!-- <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/3DSP_160.jpg" alt="3DSP" width="160" height="120" style="border-style: none">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://drive.google.com/file/d/0B4nuwEMaEsnmbG1tOGIta3N1Wjg/view?usp=sharing" id="3DSP">
+                <papertitle>3D Self-Portraits</papertitle>
+              </a>
+              <br>
+              <a href="http://www.hao-li.com/">Hao Li</a>, <a href="http://www.evouga.com/">Etienne Vouga</a>, Anton Gudym, <a href="http://www.cs.princeton.edu/~linjiel/">Linjie Luo</a>, <strong>Jonathan T. Barron</strong>, Gleb Gusev
+              <br>
+              <em>SIGGRAPH Asia</em>, 2013
+              <br>
+              <a href="http://www.youtube.com/watch?v=DmUkbZ0QMCA">video</a> / <a href="http://shapify.me/">shapify.me</a> / <a href="data/3DSP_siggraphAsia2013.bib">bibtex</a>
+              <p>Our system allows users to create textured 3D models of themselves in arbitrary poses using only a single 3D sensor.</p>
+            </td>
+          </tr> -->
+
+
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <p align="right" class="container">
+              The webpage template was borrowed from <a href="https://jonbarron.info/">Jon Barron</a>.
+              <br>
+            </p>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+</table>
+					
+					
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
