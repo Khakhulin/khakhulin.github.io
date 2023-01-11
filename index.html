@@ -22,10 +22,10 @@
               <p style="text-align:center">
                 <name>Taras Khakhulin</name>
               </p>
-              <p> I am a Ph.D. student at <a href="http://skoltech.ru/">Skoltech</a> advised by <a href="https://scholar.google.ru/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>. Currently, I am a research scientist intern at <a href="https://www.synthesia.io/">Synthesia</a>.
+              <p> I am a Ph.D. student at <a href="http://skoltech.ru/">Skoltech</a> advised by <a href="https://scholar.google.ru/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>. Currently, I am research engineer at <a href="https://www.synthesia.io/">Synthesia</a> where we build the future of media 🚀.
                 Before that I worked as a research engineer at <a href="http://research.samsung.com/aicenter_moscow">Samsung AI Center</a> for several years, where we pushed the boundaries of view synthesis.
                 I try to synthesize things that people currently cannot.
-                During my studies, I have contributed to 3D representations, image synthesis, and human avatars. I hope that soon we will be able to improve the immersive communications.
+                During my studies, I have contributed to 3D representations, image synthesis, and human avatars. I hope that soon we will be able to improve the immersive communications. Also, I was a research scientist intern at <a href="https://www.synthesia.io/">Synthesia</a>.
               </p>
               <p> Prior to that, I investigated the application of reinforcement learning for discrete optimization under the advising of <a href="https://scholar.google.com/citations?hl=en&user=5kMqBQEAAAAJ">Ivan Oseledets</a> and <a href="https://scholar.google.com/citations?user=YjuDsXYAAAAJ&hl=en">Roman Schutski</a>. 
                 Earlier, I was a part of the <a href="https://github.com/deepmipt/DeepPavlov">DeepPavlov</a> project, where we studied word representations for text with missplellings.
@@ -52,7 +52,52 @@
           </tr>
         </tbody></table>
 
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="simpli_stop()" onmouseover="simpli_start()">
+            <!-- <td style="padding:15px;width:25%;vertical-align:middle"> -->
+              <td style="padding:15px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='simpli_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="data/videos/simpli.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img  style="margin-top:25px;margin-bottom:10px" src='data/images/shot_simpli.jpg' width="100%">
+              </div>
+              <script type="text/javascript">
+                function simpli_start() {
+                  document.getElementById('simpli_image').style.opacity = "1";
+                }
+
+                function simpli_stop() {
+                  document.getElementById('simpli_image').style.opacity = "0";
+                }
+                simpli_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://openaccess.thecvf.com/content/WACV2023/html/Solovev_Self-Improving_Multiplane-To-Layer_Images_for_Novel_View_Synthesis_WACV_2023_paper.html">
+                <papertitle>Self-improving Multiplane-to-layer Images for Novel View Synthesis</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=cztiAZgAAAAJ">Pavel Solovev*</a>, 
+              <strong>Taras Khakhulin*</strong>,
+              <a href="https://scholar.google.com/citations?user=ypspak0AAAAJ">Denis Korzhenkov*</a>
+              <br>
+              <em>WACV</em>, 2023  
+              <br>
+							<a href="https://samsunglabs.github.io/MLI/">project page</a> / 
+							<a href="http://arxiv.org/abs/2210.01602">arXiv</a> /
+							<a href="https://samsunglabs.github.io/MLI/gallery.html">immersive results</a> /
+							<a href="https://github.com/SamsungLabs/MLI">code</a> /
+              <a href="data/bib/simpli.bib">bibtex</a> 
+              <p></p>
+              <p>Create the most efficient renderable representtion for novel view synthesis from an arbitrary number of images (more than one).  
+                We learn this system end-to-end on the dataset of monocular videos. Extremely fast and compact way to present scene.
+              </p>
+            </td>
+          </tr>
+
           <tr onmouseout="rome_stop()" onmouseover="rome_start()">
             <!-- <td style="padding:15px;width:25%;vertical-align:middle"> -->
               <td style="padding:15px;width:25%;vertical-align:middle">
@@ -88,6 +133,7 @@
               <br>
 							<a href="https://samsunglabs.github.io/rome/">project page</a> / 
 							<a href="https://arxiv.org/abs/2206.08343">arXiv</a> /
+              <a href="https://github.com/SamsungLabs/rome">code</a> /
               <a href="data/bib/rome.bib">bibtex</a> 
               <p></p>
               <p>Create an animatable avatar just from a <emph>single</emph> image with coarse hair mesh and neural rendering.
@@ -96,7 +142,7 @@
             </td>
           </tr>
 
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> -->
             <tr onmouseout="megap_stop()" onmouseover="megap_start()">
               <!-- <td style="padding:15px;width:25%;vertical-align:middle"> -->
                 <td style="padding:15px;width:25%;vertical-align:middle">
