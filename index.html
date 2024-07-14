@@ -22,13 +22,16 @@
               <p style="text-align:center">
                 <name>Taras Khakhulin</name>
               </p>
-              <p> I am a Ph.D. student at <a href="http://skoltech.ru/">Skoltech</a> advised by <a href="https://scholar.google.ru/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>. Currently, I am research engineer at <a href="https://www.synthesia.io/">Synthesia</a> where we build the future of media 🚀.
-                Before that I worked as a research engineer at <a href="http://research.samsung.com/aicenter_moscow">Samsung AI Center</a> for several years, where we pushed the boundaries of view synthesis.
+              <p> I am research engineer at at <a href="https://www.synthesia.io/">Synthesia</a> , where we’re working on the future of media 🚀. My current focus is on developing generative models based on diffusion processes for video and motion.
+                Before I was a Ph.D. student at <a href="http://skoltech.ru/">Skoltech</a> advised by <a href="https://scholar.google.ru/citations?user=gYYVokYAAAAJ">Victor Lempitsky</a>, and worked as a research engineer at <a href="http://research.samsung.com/aicenter_moscow">Samsung AI Center</a> for several years, where we pushed the boundaries of view synthesis.
                 I try to synthesize things that people currently cannot.
-                During my studies, I have contributed to 3D representations, image synthesis, and human avatars. I hope that soon we will be able to improve the immersive communications. Also, I was a research scientist intern at <a href="https://www.synthesia.io/">Synthesia</a>.
+                During my studies, I have contributed to 3D representations, image synthesis, and human avatars. 
+                <!-- I hope that soon we will be able to improve the immersive communications. -->
+                 <!-- Also, I was a research scientist intern at <a href="https://www.synthesia.io/">Synthesia</a>. -->
               </p>
-              <p> Prior to that, I investigated the application of reinforcement learning for discrete optimization under the advising of <a href="https://scholar.google.com/citations?hl=en&user=5kMqBQEAAAAJ">Ivan Oseledets</a> and <a href="https://scholar.google.com/citations?user=YjuDsXYAAAAJ&hl=en">Roman Schutski</a>. 
-                Earlier, I was a part of the <a href="https://github.com/deepmipt/DeepPavlov">DeepPavlov</a> project, where we studied word representations for text with missplellings.
+              <p> Prior to that, I investigated the application of reinforcement learning for discrete optimization under the advising of <a href="https://scholar.google.com/citations?hl=en&user=5kMqBQEAAAAJ">Ivan Oseledets</a>.
+                <!-- and <a href="https://scholar.google.com/citations?user=YjuDsXYAAAAJ&hl=en">Roman Schutski</a>.  -->
+                Earlier, I was a part of the <a href="https://github.com/deepmipt/DeepPavlov">DeepPavlov</a> project, where we studied word representations for text with missplellings using context-aware language modeling.
                 </p>
               <p style="text-align:center">
                 <a href="mailto:t.khakhulin@gmail.com">Email</a> &nbsp/&nbsp
@@ -53,6 +56,52 @@
         </tbody></table>
 
 
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="humanrf_stop()" onmouseover="humanrf_start()">
+            <!-- <td style="padding:15px;width:25%;vertical-align:middle"> -->
+              <td style="padding:15px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='humanrf_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="data/videos/humanrf_trimmed.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img  style="margin-top:25px;margin-bottom:10px" src='data/images/humanrf_cover.png' width="100%">
+              </div>
+              <script type="text/javascript">
+                function humanrf_start() {
+                  document.getElementById('humanrf_image').style.opacity = "1";
+                }
+
+                function humanrf_stop() {
+                  document.getElementById('humanrf_image').style.opacity = "0";
+                }
+                humanrf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://openaccess.thecvf.com/content/WACV2023/html/Solovev_Self-Improving_Multiplane-To-Layer_Images_for_Novel_View_Synthesis_WACV_2023_paper.html">
+                <papertitle>HumanRF: High-Fidelity Neural Radiance Fields for Humans in Motion</papertitle>
+              </a>
+              <br>
+              <a>Mustafa Işık</a>,
+              <a>Martin Rünz</a>,
+              <a>Markos Georgopoulos</a>,
+              <strong>Taras Khakhulin</strong>,
+              <a>Jonathan Starck</a>,
+              <a>Lourdes Agapito</a>,
+              <a>Matthias Nießner</a>
+              <br>
+              <em>ACM ToG, SIGGRAPH</em>, 2023  
+              <br>
+							<a href="https://synthesiaresearch.github.io/humanrf/">project page</a> / 
+							<a href="https://arxiv.org/abs/2305.06356">arXiv</a> /
+							<a href="https://github.com/synthesiaresearch/humanrf">code</a>
+              <p></p>
+              <p>Introduced high-resolution dataset of human performances to speed up development in avatars. 
+                Also, we demonstrated ability to reconstruct large scenes with temporal factorization for 4D NeRFs.
+              </p>
+            </td>
+          </tr>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr onmouseout="simpli_stop()" onmouseover="simpli_start()">
             <!-- <td style="padding:15px;width:25%;vertical-align:middle"> -->
